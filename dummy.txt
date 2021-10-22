@@ -1,0 +1,6 @@
+/*
+
+Practice code for JS and React components
+
+
+*/
