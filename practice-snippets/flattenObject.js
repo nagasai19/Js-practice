@@ -1,15 +1,17 @@
+//owner: Nagasai Mallela 
+
 //Flatten an Object
 
 const Object = {
 	Company: "Apple",
 	Address: "Khammam",
-	contact: +91-7095807081,
+	contact: +91-1234567890,
 	mentor: {
 		Father: "Jani",
 		Mother: "Kalavathi",
 		Brother: "Saidu",
         Friends:{
-            others:"Manikanta",
+            others:"Thomas",
          }
       } 
 	}
