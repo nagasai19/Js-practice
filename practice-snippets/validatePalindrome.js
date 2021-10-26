@@ -1,4 +1,7 @@
-//Problem statement: Given a string, find whether the given string is palindrome or not.
+//code-owner : Nagasai Mallela
+
+//Problem statement:
+// Given a string, find whether the given string is palindrome or not.
 
 // Input : "malayalam"
 // Output : passed string is a palindrome
