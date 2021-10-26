@@ -9,4 +9,5 @@ You can raise a Pull Request or can email on nagasaim19@gmail.com
 
 - Arrays
 
-`Flatten Array` : `https://github.com/nagasai19/Js-practice/blob/main/practice-snippets/flattenArray.js`
+     - [Flatten Array](https://github.com/nagasai19/Js-practice/blob/main/practice-snippets/flattenArray.js)
+
