@@ -1,0 +1,4 @@
+`Snippets`: https://www.30secondsofcode.org/
+
+`Practice` :  https://codewithsimran.substack.com/p/comprehensive-front-end-interview
+
