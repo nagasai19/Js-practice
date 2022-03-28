@@ -12,6 +12,12 @@ at function creation time
 
 */
 
+
+//A closure is a function that captures variables from its lexical scope. 
+
+//n simple words, the closure remembers the variables from the place where it is defined, no matter where it is executed.
+
+
 function init() {
     var name = 'Test'; // name is a local variable created by init
     function displayName() { // displayName() is the inner function, a closure

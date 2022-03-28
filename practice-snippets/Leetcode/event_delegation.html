@@ -1,0 +1,59 @@
+const outer = document.querySelector('.outermost')
+const middle = document.getElementById('middle')
+const center = document.getElementById('center')
+
+
+outer.addEventListener(("click"),()=>{
+  console.log('3')
+})
+
+middle.addEventListener(("click"), () => {
+  console.log('2')
+})
+
+center.addEventListener(("click"), () => {
+  console.log('1')
+})
+
+document.addEventListener("click",(()=>{
+  console.log('4')
+}),{capture: true})
+
+
+<div class ="outermost">
+   <div id="middle">
+     <div id="center">
+    </div>
+  </div>
+</div>
+
+
+
+
+outermost,#middle,#center{
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border:1px solid black;
+}
+
+.outermost{
+  height: 200px;
+  width: 200px;
+  background-color:orange;
+ 
+}
+#middle{
+  height: 100px;
+  width: 100px;
+  background-color:whitesmoke;
+}
+#center{
+  height: 50px;
+  width: 50px;
+  background-color:green;
+}
+
+
+

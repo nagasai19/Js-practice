@@ -2,7 +2,7 @@
 
 //Flatten an Object
 
-const Object = {
+const ject = {
 	Company: "Apple",
 	Address: "Khammam",
 	contact: +91-1234567890,
@@ -31,4 +31,4 @@ const Object = {
         return finalObject
     }
 
-console.log(flattenObject(Object))
+console.log(flattenObject(ject))
